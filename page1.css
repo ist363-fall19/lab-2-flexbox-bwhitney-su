@@ -1,0 +1,138 @@
+
+.container1{
+    display: flex;
+    width: 100%;
+
+}
+
+.children1{
+    background-color: lightblue;
+    margin: 20px;
+    align-items: stretch;
+    font-size: 30px;
+    flex-grow: 1;
+    height: 200px;
+    text-align: center;
+
+}
+
+.container2{
+    display: flex;
+    height: 200px;
+ 
+    
+}
+.children2{
+    background-color: #F08080;
+    margin: 10px;
+    flex-grow: 1;
+    font-size: 30px;
+    text-align: center;
+}
+
+.children2a{
+    background-color: #F08080;
+    margin: 10px;
+    flex-grow: 2;
+    font-size: 30px;
+    text-align: center;
+
+}
+.container3{
+    display: flex;
+    height: 200px;
+    
+}
+.children3{
+    background-color: #BA55D3;
+    margin: 10px;
+    flex-grow: 2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.children3a{
+   background-color:#BA55D3;
+   margin: 10px;
+   flex-grow: 1;
+   font-size: 30px;
+   text-align: center;
+}
+.container4{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.children4{
+    background-color: #98FB98;
+    margin: 10px;
+    width: 33%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container5{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+.children5{
+    background-color:#FAEBD7;
+    margin: 10px;
+    width: 33%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.container6{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.children6{
+    background-color: #778899;
+    width: 25%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container7{
+    display: flex;
+    height: 200px;
+    justify-content: flex-end;
+}
+.children7{
+    background-color: #20B2AA;
+    width:16%;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+.container8{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+
+}
+.container8a{
+    display: flex;
+}
+.children8{
+    background-color: #EEE8AA;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.half{
+    flex: .5;
+}
+.quarter{
+    flex: .25;
+}
